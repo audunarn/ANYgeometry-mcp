@@ -1,6 +1,6 @@
 # ANYgeometry MCP
 
-Reference stdio MCP adapter for `ANYgeometry>=0.3,<0.4`. The adapter exposes
+Reference stdio MCP adapter for `ANYgeometry>=0.4.1,<0.5`. The adapter exposes
 the kernel's provider-neutral automation protocol; it does not interpret
 natural language and never executes generated Python.
 
@@ -16,4 +16,3 @@ never automatic.
 
 The seven tools are `kernel_capabilities`, `model_summary`, `select_entities`,
 `describe_entities`, `query_geometry`, `plan_edit`, and `apply_edit`.
-
